@@ -34,7 +34,7 @@ require_once('bootstrap.php');
             <div class="subline">Convert all you DBF data to <?=$site::$convert_to?> free in 3 easy steps.</div>
             <div style="height:2px;"></div>
             <div class="subline">Step 1.</div>
-            <div class="content">&nbsp;Choose your .dbf dbase database file to convert, up to 100mb.</div>
+            <div class="content">&nbsp;Choose your .dbf dbase database file to convert, up to 200mb.</div>
             <div class="subline">Step 2.</div>
             <div class="content">&nbsp;Upload your file.</div>
             <div class="subline">Step 3.</div>

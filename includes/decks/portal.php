@@ -41,7 +41,7 @@ require_once('bootstrap.php');
         <br>
         <form action="upload.php" method="post" enctype="multipart/form-data">
             <div class="card">
-                <div class="subline">Choose a dBase DBF file to convert. Up to 100mb for free.</div>
+                <div class="subline">Choose a dBase DBF file to convert. Up to 200mb for free.</div>
             </div>
             <br> 
             <br> 
