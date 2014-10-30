@@ -189,6 +189,6 @@ class DBF_To_HTML {
     public static $google_ad_block_1 = '';
     public static $google_ad_block_2 = '';
 	public static $shareaholic_id = '3a1b879acb1594371d25b3c3dbbb69c3';
-    public static $shareaholic_related_content_block_1 = "<div class='shareaholic-canvas' data-app='recommendations' data-app-id='11642612'></div>";
-    public static $shareaholic_follow_content_block_1 = "<div class='shareaholic-canvas' data-app='follow_buttons' data-app-id='11642664'></div>";
+    public static $shareaholic_related_content_block_1 = "<div class='shareaholic-canvas' data-app='recommendations' data-app-id='11642625'></div>";
+    public static $shareaholic_follow_content_block_1 = "<div class='shareaholic-canvas' data-app='follow_buttons' data-app-id='11642626'></div>";
 }
