@@ -5,7 +5,7 @@ require_once('bootstrap.php');
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
-    <meta name="keywords" content="<?=$site::$meta_keywords?>">
+    <meta name="keywords" content="<?=DBF_To_Common::$meta_keywords?>,<?=$site::$meta_keywords?>">
     <meta name="description" content="<?=$site::$meta_description?>">
     <meta name="revisit-after" content="3 days">
     <meta name="Content-Language" content="english">

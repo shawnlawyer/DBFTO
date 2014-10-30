@@ -16,7 +16,7 @@ class DBF_To {
 	public static $card_deck = 'portal.php';
 	public static $site_title = 'DBFto - Free Online dBase DBF Converter Toolset dBase DBF to JSON, dBase DBF to XML, dBase DBF to CSV';
     
-	public static $meta_keywords = 'JSON, Javascript Object Notation';
+	public static $meta_keywords = '';
 	public static $meta_description = 'dBase DBF to Free Online Converting Software. With DBFtoJSON, DBFtoXML, DBFtoJSON, DBFtoXML, and DBFtoCSV Upload up to 100MB dBase DBF file and convert to JSON Javascript Object Notation, XML Extensible Markup Language, and CSV Comma Separated Values for Free. Visual FoxPro end of life, transform your dbf dBase to JSON, XML, and CSV.';
 
 	public static $meta_msvalidate = '5CA5002C9CBF16995A8D68E6C0B1D952';
