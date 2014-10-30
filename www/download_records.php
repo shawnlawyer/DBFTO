@@ -1,6 +1,7 @@
 <?php
 include('bootstrap.php');
 $file = DBF_To_Common::uploads().$_COOKIE['file'];
+if($file == DBF_To_Common::uploads()){exit;}
 switch($site::$convert_to){
     case 'JSON':
         header("Content-type: application/octet-stream");
