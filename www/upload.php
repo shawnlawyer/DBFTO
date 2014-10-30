@@ -22,9 +22,10 @@ if (isset($_FILES["file"])) {
         <?php
         switch($site::$convert_to){
             case 'JSON':
+            ?>
                 <a class="btn" target="_blank"href="download_header.php">Header</a> &nbsp; 
                 <a class="btn" target="_blank"href="download_fields.php">Fields</a> &nbsp;
-                <?
+                <?php
                 break;
             case 'XML':
             case 'CSV':
