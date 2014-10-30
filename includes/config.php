@@ -22,7 +22,8 @@ class DBF_To {
 	public static $meta_msvalidate = '5CA5002C9CBF16995A8D68E6C0B1D952';
 	public static $meta_google_site_verification = '9Ae0Zu7yTYTPd33Y9AzgAgovLdpUiZaBzCmK_vmNT28';
     
-	public static $google_analytics_id = 'UA-56208630-2';
+	public static $google_analytics_id = 'UA-56187025-5';
+    
     /*
     public static $google_ad_block_1 = ' 
 <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-6846888363220940" data-ad-slot="6643015313"></ins>
@@ -114,7 +115,7 @@ class DBF_To_CSV {
 	public static $meta_msvalidate = '';
 	public static $meta_google_site_verification = '2ygdagLeb0h8tH_d5SfdN59Vvn1FKkq8VbEgjwSvVps';
     
-	public static $google_analytics_id = 'UA-56208630-1';
+	public static $google_analytics_id = 'UA-56187025-6';
     public static $google_ad_block_1 = ' 
 <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-6846888363220940" data-ad-slot="6643015313"></ins>
 <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
@@ -142,7 +143,7 @@ class DBF_To_XLSX {
 	public static $meta_msvalidate = '';
 	public static $meta_google_site_verification = 'IHxCrsMNhqYpMDmObTZHlOhtUTI3n1Imu1RUOBV192o';
     
-	public static $google_analytics_id = 'UA-56208630-1'; /*
+	public static $google_analytics_id = 'UA-56187025-3'; /*
     public static $google_ad_block_1 = ' 
 <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-6846888363220940" data-ad-slot="6643015313"></ins>
 <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
@@ -173,7 +174,9 @@ class DBF_To_HTML {
 	public static $meta_msvalidate = '';
 	public static $meta_google_site_verification = 'wpst89xVs-7gb3gscAqmpubGB2LlveafMurrGjBmDXQ';
     
-	public static $google_analytics_id = 'UA-56208630-1'; /*
+	public static $google_analytics_id = 'UA-56187025-4';
+
+/*
     public static $google_ad_block_1 = ' 
 <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-6846888363220940" data-ad-slot="6643015313"></ins>
 <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
