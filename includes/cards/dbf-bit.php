@@ -11,7 +11,7 @@
         Wikipedia <a rel="nofollow" href="http://en.wikipedia.org/wiki/DBase" hreflang="en">DBase</a><br>
         Programming Paradigm(s)<br>
         Imperative, Declarative<br>
-        Software Developer : C. Wayne Ratliff<br>
+        Developer : C. Wayne Ratliff<br>
         Company : Ashton-Tate<br>
         Website <a rel="nofollow" href="http://www.dbase.com/" hreflang="en">www.dbase.com</a><br>
         <br>
