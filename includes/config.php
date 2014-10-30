@@ -171,7 +171,7 @@ class DBF_To_HTML {
 	public static $meta_description = 'dBase DBF to HTML Free Online Converter Software. Upload up to 100MB dBase DBF file and convert to HTML Hypertext Markup Language Free. Visual FoxPro end of life, transform your dbf dBase to HTML.';
 
 	public static $meta_msvalidate = '';
-	public static $meta_google_site_verification = '2ygdagLeb0h8tH_d5SfdN59Vvn1FKkq8VbEgjwSvVps';
+	public static $meta_google_site_verification = 'wpst89xVs-7gb3gscAqmpubGB2LlveafMurrGjBmDXQ';
     
 	public static $google_analytics_id = 'UA-56208630-1'; /*
     public static $google_ad_block_1 = ' 
