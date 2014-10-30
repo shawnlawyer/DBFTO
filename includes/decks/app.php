@@ -131,7 +131,7 @@ require_once('bootstrap.php');
                 $('#progressbar').hide();
             })();
         </script>
-        <?php include('js/shareacolic.php');?>
+        <?php include('js/shareaholic.php');?>
         <?php include('js/google_analytics.php');?>
     </body>
 </html>

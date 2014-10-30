@@ -93,7 +93,7 @@ require_once('bootstrap.php');
             <?php include('cards/legal-bit.php');?>
         </div>  
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
-        <?php include('js/shareacolic.php');?>
+        <?php include('js/shareaholic.php');?>
         <?php include('js/google_analytics.php');?>
 
     </body>
