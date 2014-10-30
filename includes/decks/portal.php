@@ -4,7 +4,7 @@ require_once('bootstrap.php');
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-        <?php include('cards/head-tags.php');?>
+        <?php include('html/head-tags.php');?>
     </head>
     <body class="alignCenter">
         <div id="headContainer" class="fitBlock">
