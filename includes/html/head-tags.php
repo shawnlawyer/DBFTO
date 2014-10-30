@@ -8,4 +8,4 @@
 <meta name="msvalidate.01" content="<?=$site::$meta_msvalidate?>" />
 <meta name="google-site-verification" content="<?=$site::$meta_google_site_verification?>" />
 <title><?=$site::$site_title?></title>
-<link href="/dbfto.css" rel="stylesheet" type="text/css">
+<link href="/dbfto.css" rel="stylesheet" type="text/css">   
