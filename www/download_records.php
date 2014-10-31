@@ -25,6 +25,7 @@ switch($site::$convert_to){
         $exporter->finalize();
         exit();
     case 'HTML':
+        header("Content-type: application/octet-stream");
         $table = new Table(DBF_To_Controller::getRecords($file));
         $table->draw();
         exit();
