@@ -144,7 +144,7 @@ class DBF_To_XLSX {
 	public static $meta_msvalidate = '';
 	public static $meta_google_site_verification = 'IHxCrsMNhqYpMDmObTZHlOhtUTI3n1Imu1RUOBV192o';
     
-	public static $google_analytics_id = 'UA-56187025-3'; /*
+	public static $google_analytics_id = 'UA-56187025-3';
     public static $google_ad_block_1 = ' 
 <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-6846888363220940" data-ad-slot="6643015313"></ins>
 <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
@@ -153,9 +153,6 @@ class DBF_To_XLSX {
 <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-6846888363220940" data-ad-slot="3968750518"></ins>
 <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 ';
-    */
-    public static $google_ad_block_1 = '';
-    public static $google_ad_block_2 = '';
 	public static $shareaholic_id = '7e906fb15a025e51845201d0ea359595';
     public static $shareaholic_related_content_block_1 = "<div class='shareaholic-canvas' data-app='recommendations' data-app-id='11642612'></div>";
     public static $shareaholic_follow_content_block_1 = "<div class='shareaholic-canvas' data-app='follow_buttons' data-app-id='11642664'></div>";
@@ -177,7 +174,6 @@ class DBF_To_HTML {
     
 	public static $google_analytics_id = 'UA-56187025-4';
 
-/*
     public static $google_ad_block_1 = ' 
 <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-6846888363220940" data-ad-slot="6643015313"></ins>
 <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
@@ -186,9 +182,6 @@ class DBF_To_HTML {
 <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-6846888363220940" data-ad-slot="3968750518"></ins>
 <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 ';
-    */
-    public static $google_ad_block_1 = '';
-    public static $google_ad_block_2 = '';
 	public static $shareaholic_id = '3a1b879acb1594371d25b3c3dbbb69c3';
     public static $shareaholic_related_content_block_1 = "<div class='shareaholic-canvas' data-app='recommendations' data-app-id='11642625'></div>";
     public static $shareaholic_follow_content_block_1 = "<div class='shareaholic-canvas' data-app='follow_buttons' data-app-id='11642626'></div>";

@@ -16,8 +16,6 @@ switch($site::$convert_to){
         echo DBF_To_Controller::convertToCSV(DBF_To_Controller::getRecords($file));
         exit;
     case 'XLSX':
-        echo DBF_To_Controller::convertToCSV();
-
         $exporter = new ExportDataExcel('browser', 'data.xlsx');
         $exporter->initialize();
         $data = DBF_To_Controller::getRecords($file);
@@ -25,5 +23,9 @@ switch($site::$convert_to){
             $exporter->addRow($row);
         } 
         $exporter->finalize();
+        exit();
+    case 'HTML':
+        $table = new Table(DBF_To_Controller::getRecords($file));
+        $table->draw();
         exit();
 }
