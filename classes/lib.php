@@ -48,17 +48,14 @@ class DBF_To_Controller {
 
     public static function convertToXML($array, $level=1) {
             $xml = '';
-       // if ($level==1) {
-       //     $xml .= "<array>\n";
-       // }
         foreach ($array as $key=>$value) {
             $key = strtolower($key);
-            if (is_object($value)) {$value=get_object_vars($value);}// convert object to array
+            if (is_object($value)) {$value=get_object_vars($value);}
             
             if (is_array($value)) {
                 $multi_tags = false;
                 foreach($value as $key2=>$value2) {
-                 if (is_object($value2)) {$value2=get_object_vars($value2);} // convert object to array
+                 if (is_object($value2)) {$value2=get_object_vars($value2);}
                     if (is_array($value2)) {
                         $xml .= str_repeat("\t",$level)."<$key>\n";
                         $xml .= array_to_xml($value2, $level+1);
@@ -68,11 +65,11 @@ class DBF_To_Controller {
                         if (trim($value2)!='') {
                             if (htmlspecialchars($value2)!=$value2) {
                                 $xml .= str_repeat("\t",$level).
-                                        "<$key2><![CDATA[$value2]]>". // changed $key to $key2... didn't work otherwise.
+                                        "<$key2><![CDATA[$value2]]>".
                                         "</$key2>\n";
                             } else {
                                 $xml .= str_repeat("\t",$level).
-                                        "<$key2>$value2</$key2>\n"; // changed $key to $key2
+                                        "<$key2>$value2</$key2>\n";
                             }
                         }
                         $multi_tags = true;
@@ -96,9 +93,6 @@ class DBF_To_Controller {
                 }
             }
         }
-       //if ($level==1) {
-        //    $xml .= "</array>\n";
-       // }
         return $xml;
     }
 

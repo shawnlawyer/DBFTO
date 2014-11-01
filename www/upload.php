@@ -17,10 +17,10 @@ if (isset($_FILES["file"])) {
         $filename = sha1(time().$_FILES["file"]["tmp_name"]);
         setcookie ("file", $filename, time() + 3600, "/", $site::$domain);
         move_uploaded_file($_FILES["file"]["tmp_name"], DBF_To_Common::uploads() . $filename);
-        $controller::saveFile($file . '.head.json',json_encode($controller::getHeader($file)));
-        $controller::saveFile($file . '.fields.json',json_encode($controller::getFields($file)));
-        $controller::saveFile($file . '.records.json',json_encode($controller::getRecords($file)));
-        $controller::deleteUploadedFile($file);
+        DBF_To_Controller::saveFile($file . '.head.json',json_encode(DBF_To_Controller::getHeader($file)));
+        DBF_To_Controller::saveFile($file . '.fields.json',json_encode(DBF_To_Controller::getFields($file)));
+        DBF_To_Controller::saveFile($file . '.records.json',json_encode(DBF_To_Controller::getRecords($file)));
+        DBF_To_Controller::deleteUploadedFile($file);
         ?>
         <div class="subline">Download the dbase DBF data converted to <?=$site::$convert_to?></div>
         <?php
