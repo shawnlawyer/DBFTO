@@ -12,6 +12,6 @@ switch($site::$convert_to){
     case 'XML':
         header("Content-type: application/octet-stream");
 		header("Content-Disposition: inline; filename=\"schema.xml");
-        echo DBF_To_Controller::convertToXML(DBF_To_Controller::getJSON($file);
+        echo DBF_To_Controller::convertToXML(DBF_To_Controller::getJSON($file));
         exit;
 }
