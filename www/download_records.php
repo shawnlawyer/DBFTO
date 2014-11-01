@@ -30,7 +30,6 @@ switch($site::$convert_to){
     case 'HTML':
         header("Content-type: application/octet-stream");
 		header("Content-Disposition: inline; filename=\"data.html");
-        $table = new Table(DBF_To_Controller::getJSON($file));
-        $table->draw();
+        echo Table::makeTable(DBF_To_Controller::getJSON($file));
         exit();
 }
