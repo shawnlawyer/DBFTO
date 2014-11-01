@@ -1,6 +1,6 @@
 <?php
 include('bootstrap.php');
-$file = DBF_To_Common::uploads().$_COOKIE['file'].'.head.json'
+$file = DBF_To_Common::uploads().$_COOKIE['file'].'.head.json';
 if(!file_exists($file)){exit;}
 header("Content-type: application/octet-stream");
 switch($site::$convert_to){
