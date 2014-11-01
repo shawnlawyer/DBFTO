@@ -186,3 +186,5 @@ class DBF_To_HTML {
     public static $shareaholic_related_content_block_1 = "<div class='shareaholic-canvas' data-app='recommendations' data-app-id='11642625'></div>";
     public static $shareaholic_follow_content_block_1 = "<div class='shareaholic-canvas' data-app='follow_buttons' data-app-id='11642626'></div>";
 }
+
+require_once('controller.php');
