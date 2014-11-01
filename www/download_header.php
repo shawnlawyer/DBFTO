@@ -7,6 +7,6 @@ switch($site::$convert_to){
     case 'JSON':
         header("Content-type: application/octet-stream");
 		header("Content-Disposition: inline; filename=\"headers.json");
-        echo $controller::getJSONContents($file);
+        echo DBF_To_Controller::getJSONContents($file);
         exit;
 }

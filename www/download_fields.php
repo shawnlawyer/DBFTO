@@ -7,11 +7,11 @@ switch($site::$convert_to){
     case 'JSON':
         header("Content-type: application/octet-stream");
 		header("Content-Disposition: inline; filename=\"fields.json");
-        echo $controller::getJSONContents($file);
+        echo DBF_To_Controller::getJSONContents($file);
         exit;
     case 'XML':
         header("Content-type: application/octet-stream");
 		header("Content-Disposition: inline; filename=\"schema.xml");
-        echo DBF_To_Controller::convertToXML($controller::getJSON($file);
+        echo DBF_To_Controller::convertToXML(DBF_To_Controller::getJSON($file);
         exit;
 }

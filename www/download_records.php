@@ -6,17 +6,17 @@ switch($site::$convert_to){
     case 'JSON':
         header("Content-type: application/octet-stream");
 		header("Content-Disposition: inline; filename=\"data.json");
-        echo $controller::getJSONContents($file);
+        echo DBF_To_Controller::getJSONContents($file);
         exit;
     case 'XML':
         header("Content-type: application/octet-stream");
 		header("Content-Disposition: inline; filename=\"data.xml");
-        echo DBF_To_Controller::convertToXML($controller::getJSON($file));
+        echo DBF_To_Controller::convertToXML(DBF_To_Controller::getJSON($file));
         exit;
     case 'CSV':
         header("Content-type: application/octet-stream");
 		header("Content-Disposition: inline; filename=\"data.csv");
-        echo DBF_To_Controller::convertToCSV($controller::getJSON($file));
+        echo DBF_To_Controller::convertToCSV(DBF_To_Controller::getJSON($file));
         exit;
     case 'XLSX':
         $exporter = new ExportDataExcel('browser', 'data.xlsx');
@@ -30,7 +30,7 @@ switch($site::$convert_to){
     case 'HTML':
         header("Content-type: application/octet-stream");
 		header("Content-Disposition: inline; filename=\"data.html");
-        $table = new Table($controller::getJSON($file));
+        $table = new Table(DBF_To_Controller::getJSON($file));
         $table->draw();
         exit();
 }
