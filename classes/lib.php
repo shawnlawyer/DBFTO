@@ -177,6 +177,27 @@ class DBF_To_Controller {
         fclose($fdbf); 
         return json_decode(str_replace('\\u0000', "", json_encode($print_header)));
     }
+    
+    public static function getJSONContents($file) { 
+        return self::getFile($file);
+    }
+    public static function getJSON($file) { 
+        return json_decode(self::getJSONContents($file));
+    }
+    public static function getUploadedFileContents($file) { 
+        return utf8_encode(file_get_contents($file));
+    }
+    public static function deleteUploadedFile($file) { 
+        return unlink($file);
+    }
+    public static function saveFile($file,$contents) { 
+        $r = fopen($file, 'w');
+        if(fwrite($r, $contents)){
+            fclose($r);
+            return true;
+        }
+        return false;
+    }
 }
 
 abstract class ExportData {
@@ -368,7 +389,7 @@ class ExportDataExcel extends ExportData {
 	
 }
 class Table {
-    protected $opentable = "\n<table cellspacing=\"0\" cellpadding=\"0\">\n";
+    protected $opentable = "<table cellspacing=\"0\" cellpadding=\"0\">\n";
     protected $closetable = "</table>\n";
     protected $openrow = "\t<tr>\n";
     protected $closerow = "\t</tr>\n";

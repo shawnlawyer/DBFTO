@@ -1,16 +1,17 @@
 <?php
 include('bootstrap.php');
-$file = DBF_To_Common::uploads().$_COOKIE['file'];
-if($file == DBF_To_Common::uploads()){exit;}
+$file = DBF_To_Common::uploads().$_COOKIE['file'].'.fields.json';
+if(!file_exists($file)){exit;}
 header("Content-type: application/octet-stream");
 switch($site::$convert_to){
     case 'JSON':
-        echo json_encode(DBF_To_Controller::getFields($file));
+        header("Content-type: application/octet-stream");
+		header("Content-Disposition: inline; filename=\"fields.json");
+        echo $controller::getJSONContents($file);
         exit;
     case 'XML':
-        echo DBF_To_Controller::convertToXML(DBF_To_Controller::getFields($file));
-        exit;
-    case 'CSV':
-        echo DBF_To_Controller::convertToCSV(DBF_To_Controller::getFields($file));
+        header("Content-type: application/octet-stream");
+		header("Content-Disposition: inline; filename=\"schema.xml");
+        echo DBF_To_Controller::convertToXML($controller::getJSON($file);
         exit;
 }

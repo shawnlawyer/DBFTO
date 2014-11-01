@@ -1,24 +1,27 @@
 <?php
 include('bootstrap.php');
-$file = DBF_To_Common::uploads().$_COOKIE['file'];
-if($file == DBF_To_Common::uploads()){exit;}
+$file = DBF_To_Common::uploads().$_COOKIE['file'].'.records.json';
+if(!file_exists($file)){exit;}
 switch($site::$convert_to){
     case 'JSON':
         header("Content-type: application/octet-stream");
-        echo json_encode(DBF_To_Controller::getRecords($file));
+		header("Content-Disposition: inline; filename=\"data.json");
+        echo $controller::getJSONContents($file);
         exit;
     case 'XML':
         header("Content-type: application/octet-stream");
-        echo DBF_To_Controller::convertToXML(DBF_To_Controller::getRecords($file));
+		header("Content-Disposition: inline; filename=\"data.xml");
+        echo DBF_To_Controller::convertToXML($controller::getJSON($file));
         exit;
     case 'CSV':
         header("Content-type: application/octet-stream");
-        echo DBF_To_Controller::convertToCSV(DBF_To_Controller::getRecords($file));
+		header("Content-Disposition: inline; filename=\"data.csv");
+        echo DBF_To_Controller::convertToCSV($controller::getJSON($file));
         exit;
     case 'XLSX':
         $exporter = new ExportDataExcel('browser', 'data.xlsx');
         $exporter->initialize();
-        $data = DBF_To_Controller::getRecords($file);
+        $data = $controller::getJSON($file);
         foreach($data as $row){
             $exporter->addRow($row);
         } 
@@ -26,7 +29,8 @@ switch($site::$convert_to){
         exit();
     case 'HTML':
         header("Content-type: application/octet-stream");
-        $table = new Table(DBF_To_Controller::getRecords($file));
+		header("Content-Disposition: inline; filename=\"data.html");
+        $table = new Table($controller::getJSON($file));
         $table->draw();
         exit();
 }

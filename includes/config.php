@@ -5,8 +5,8 @@ class DBF_To_Common {
     public static function uploads(){
         return self::$uploads;
     }
-    public static $meta_keywords = 'dBase, DBFtoHTML, DBFtoXLSX, DBFtoJSON, DBFtoXML, DBFtoCSV, DBFto, dBaseto, dBase to, Converter, Transform, 100MB, dBase DBFm, Free, Online, Visual FoxPro, Software, Tool';
-	public static $meta_description = 'dBase DBF To - Free Online Tools for Converting dBase DBF data.  DBFtoJSON, DBFtoXML, DBFtoHTML, DBFtoXLSX, and DBFtoCSV. Upload up to 100MB dBase DBF file and convert to JSON Javascript Object Notation, XML Extensible Markup Language, and CSV Comma Separated Values for Free. Visual FoxPro end of life, transform your dbf dBase to JSON, XML, HTML, XLSX and CSV.';
+    public static $meta_keywords = 'dBase, DBFtoHTML, DBFtoXLSX, DBFtoJSON, DBFtoXML, DBFtoCSV, DBFto, dBaseto, dBase to, Converter, Transform, 200MB, dBase DBFm, Free, Online, Visual FoxPro, Software, Tool';
+	public static $meta_description = 'dBase DBF To - Free Online Tools for Converting dBase DBF data.  DBFtoJSON, DBFtoXML, DBFtoHTML, DBFtoXLSX, and DBFtoCSV. Upload up to 200MB dBase DBF file and convert to JSON Javascript Object Notation, XML Extensible Markup Language, and CSV Comma Separated Values for Free. Visual FoxPro end of life, transform your dbf dBase to JSON, XML, HTML, XLSX and CSV.';
 
 }
 
@@ -18,7 +18,7 @@ class DBF_To {
     
 	public static $convert_to = '';
 	public static $meta_keywords = '';
-	public static $meta_description = 'dBase DBF to Free Online Converting Software. With DBFtoJSON, DBFtoXML, DBFtoJSON, DBFtoXML, and DBFtoCSV Upload up to 100MB dBase DBF file and convert to JSON Javascript Object Notation, XML Extensible Markup Language, and CSV Comma Separated Values for Free. Visual FoxPro end of life, transform your dbf dBase to JSON, XML, and CSV.';
+	public static $meta_description = 'dBase DBF to Free Online Converting Software. With DBFtoJSON, DBFtoXML, DBFtoJSON, DBFtoXML, and DBFtoCSV Upload up to 200MB dBase DBF file and convert to JSON Javascript Object Notation, XML Extensible Markup Language, and CSV Comma Separated Values for Free. Visual FoxPro end of life, transform your dbf dBase to JSON, XML, and CSV.';
 
 	public static $meta_msvalidate = '5CA5002C9CBF16995A8D68E6C0B1D952';
 	public static $meta_google_site_verification = '9Ae0Zu7yTYTPd33Y9AzgAgovLdpUiZaBzCmK_vmNT28';
@@ -53,7 +53,7 @@ class DBF_To_JSON {
 	public static $convert_to = 'JSON';
 	public static $convert_to_longname = 'JavaScript Object Notation';
 	public static $meta_keywords = 'JSON, Javascript Object Notation';
-	public static $meta_description = 'dBase DBF to JSON Free Online Converter Software. Upload up to 100MB dBase DBF file and convert to JSON Javascript Object Notation Free. Visual FoxPro end of life, transform your dbf dBase to JSON.';
+	public static $meta_description = 'dBase DBF to JSON Free Online Converter Software. Upload up to 200MB dBase DBF file and convert to JSON Javascript Object Notation Free. Visual FoxPro end of life, transform your dbf dBase to JSON.';
 
 	public static $meta_msvalidate = '5CA5002C9CBF16995A8D68E6C0B1D952';
 	public static $meta_google_site_verification = 'Yq17ahuf-vkrNjHYEALIxevZnnnMzD6TQDRxdZG2pl8';
@@ -82,7 +82,7 @@ class DBF_To_XML {
 	public static $convert_to = 'XML';
 	public static $convert_to_longname = 'Extensible Markup Language';
 	public static $meta_keywords = 'XML, Extensible Markup Language';
-	public static $meta_description = 'dBase DBF to XML Free Online Converter Software. Upload up to 100MB dBase DBF file and convert to XML Extensible Markup Language Free. Visual FoxPro end of life, transform your dbf dBase to XML.';
+	public static $meta_description = 'dBase DBF to XML Free Online Converter Software. Upload up to 200MB dBase DBF file and convert to XML Extensible Markup Language Free. Visual FoxPro end of life, transform your dbf dBase to XML.';
 
 	public static $meta_msvalidate = '027D090DAC3D970CBA395963E338EF74';
 	public static $meta_google_site_verification = 'fV0yhK-sowYA6nQJU-gt2Bn_8DinWNmDW24GkZj1kHo';
@@ -111,7 +111,7 @@ class DBF_To_CSV {
 	public static $convert_to = 'CSV';
 	public static $convert_to_longname = 'Comma Separated Values';
 	public static $meta_keywords = 'XML, Comma Separated Values';
-	public static $meta_description = 'dBase DBF to XML Free Online Converter Software. Upload up to 100MB dBase DBF file and convert to CSV Comma Separated Values Free. Visual FoxPro end of life, transform your dbf dBase to CSV.';
+	public static $meta_description = 'dBase DBF to XML Free Online Converter Software. Upload up to 200MB dBase DBF file and convert to CSV Comma Separated Values Free. Visual FoxPro end of life, transform your dbf dBase to CSV.';
 
 	public static $meta_msvalidate = '';
 	public static $meta_google_site_verification = '2ygdagLeb0h8tH_d5SfdN59Vvn1FKkq8VbEgjwSvVps';
@@ -139,7 +139,7 @@ class DBF_To_XLSX {
 	public static $convert_to = 'XLSX';
 	public static $convert_to_longname = 'Microsoft Office Excel and OpenOffice';
 	public static $meta_keywords = 'XLSX, Microsoft Office Excel';
-	public static $meta_description = 'dBase DBF to XLSX Free Online Converter Software. Upload up to 100MB dBase DBF file and convert to XLSX Microsoft Office Excel and OpenOffice Free. Visual FoxPro end of life, transform your dbf dBase to XLSX.';
+	public static $meta_description = 'dBase DBF to XLSX Free Online Converter Software. Upload up to 200MB dBase DBF file and convert to XLSX Microsoft Office Excel and OpenOffice Free. Visual FoxPro end of life, transform your dbf dBase to XLSX.';
 
 	public static $meta_msvalidate = '';
 	public static $meta_google_site_verification = 'IHxCrsMNhqYpMDmObTZHlOhtUTI3n1Imu1RUOBV192o';
@@ -166,8 +166,8 @@ class DBF_To_HTML {
     
 	public static $convert_to = 'HTML';
 	public static $convert_to_longname = 'Hypertext Markup Language';
-	public static $meta_keywords = 'dBase, DBFtoXLSX, DBFtoJSON, DBFtoXML, DBFtoCSV, DBFto, dBaseto, dBase to, Converter, Transform, 100MB, dBase DBF,  HTML, Hypertext Markup Language, Free, Online, Visual FoxPro, Software, Tool';
-	public static $meta_description = 'dBase DBF to HTML Free Online Converter Software. Upload up to 100MB dBase DBF file and convert to HTML Hypertext Markup Language Free. Visual FoxPro end of life, transform your dbf dBase to HTML.';
+	public static $meta_keywords = 'dBase, DBFtoXLSX, DBFtoJSON, DBFtoXML, DBFtoCSV, DBFto, dBaseto, dBase to, Converter, Transform, 200MB, dBase DBF,  HTML, Hypertext Markup Language, Free, Online, Visual FoxPro, Software, Tool';
+	public static $meta_description = 'dBase DBF to HTML Free Online Converter Software. Upload up to 200MB dBase DBF file and convert to HTML Hypertext Markup Language Free. Visual FoxPro end of life, transform your dbf dBase to HTML.';
 
 	public static $meta_msvalidate = '';
 	public static $meta_google_site_verification = 'wpst89xVs-7gb3gscAqmpubGB2LlveafMurrGjBmDXQ';
