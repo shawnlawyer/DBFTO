@@ -33,9 +33,6 @@ class DBF_To {
 <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-6846888363220940" data-ad-slot="3968750518"></ins>
 <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 ';
-    public static $google_ad_block_1 = '';
-    public static $google_ad_block_2 = '';
-
 	public static $shareaholic_id = 'b4229ceca591af3c57964a203b24af6d';
     public static $shareaholic_related_content_block_1 = "<div class='shareaholic-canvas' data-app='recommendations' data-app-id='11635050'></div>";
     public static $shareaholic_follow_content_block_1 = "<div class='shareaholic-canvas' data-app='follow_buttons' data-app-id='11635065'></div>";
