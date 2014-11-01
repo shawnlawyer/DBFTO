@@ -25,7 +25,6 @@ class DBF_To {
     
 	public static $google_analytics_id = 'UA-56187025-5';
     
-    /*
     public static $google_ad_block_1 = ' 
 <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-6846888363220940" data-ad-slot="6643015313"></ins>
 <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
@@ -34,7 +33,6 @@ class DBF_To {
 <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-6846888363220940" data-ad-slot="3968750518"></ins>
 <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 ';
-    */
     public static $google_ad_block_1 = '';
     public static $google_ad_block_2 = '';
 
@@ -186,5 +184,3 @@ class DBF_To_HTML {
     public static $shareaholic_related_content_block_1 = "<div class='shareaholic-canvas' data-app='recommendations' data-app-id='11642625'></div>";
     public static $shareaholic_follow_content_block_1 = "<div class='shareaholic-canvas' data-app='follow_buttons' data-app-id='11642626'></div>";
 }
-
-require_once('controller.php');
