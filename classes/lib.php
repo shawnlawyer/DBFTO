@@ -386,38 +386,26 @@ class ExportDataExcel extends ExportData {
 	
 }
 class Table {
-    protected $opentable = "<table cellspacing=\"0\" cellpadding=\"0\">\n";
-    protected $closetable = "</table>\n";
-    protected $openrow = "\t<tr>\n";
-    protected $closerow = "\t</tr>\n";
-
-    function __construct($data) {
-        $this->string = $this->opentable;
+    function makeTable($data) {
+        $html = '
+        <table>';
         foreach ($data as $row) {
-            $this->string .= $this->buildrow($row);
+            $html .= self::makeTableRow($row);
         }
-        $this->string .= $this->closetable;
+        $html .= '
+</table>';
     }
 
-    function addfield($field, $style = "null") {
-        if ($style == "null") {
-            $html =  "\t\t<td>" . $field . "</td>\n";
-        } else {
-            $html = "\t\t<td class=\"" . $style . "\">"  . $field . "</td>\n";
-        }
-        return $html;
-    }
-
-    function buildrow($row) {
-        $html .= $this->openrow;
+    function makeTableRow($row) {
+        $html = '
+    <tr>';
         foreach ($row as $field) {
-            $html .= $this->addfield($field);
+            $html .= '
+        <td>'  . $field . '</td>';
         }
-        $html .= $this->closerow;
+        $html .= '
+    </tr>';
         return $html;
     }
 
-    function draw() {
-        echo $this->string;
-    }
 }
