@@ -386,7 +386,7 @@ class ExportDataExcel extends ExportData {
 	
 }
 class Table {
-    function makeTable($data) {
+    public static function makeTable($data) {
         $html = '
         <table>';
         foreach ($data as $row) {
@@ -396,7 +396,7 @@ class Table {
 </table>';
     }
 
-    function makeTableRow($row) {
+    public static function makeTableRow($row) {
         $html = '
     <tr>';
         foreach ($row as $field) {
