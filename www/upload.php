@@ -28,8 +28,8 @@ if (isset($_FILES["file"])) {
         switch($site::$convert_to){
             case 'JSON':
             ?>
-                <span class="btn"  onclick="$('#DownloadIFrame').src = 'download_header.php';">Header</span> &nbsp; 
-                <span class="btn" onclick="$('#DownloadIFrame').src = 'download_fields.php';">Fields</span> &nbsp;
+                <span class="btn"  onclick="$('#DownloadIFrame').attr('src','/download_header.php');">Header</span> &nbsp; 
+                <span class="btn" onclick="$('#DownloadIFrame').attr('src','/download_fields.php');">Fields</span> &nbsp;
                 <?php
                 break;
             case 'XML':
@@ -39,7 +39,7 @@ if (isset($_FILES["file"])) {
                 break;
         }
         ?>
-        <span class="btn" onclick="$('#DownloadIFrame').src = 'download_records.php';">Records</span>
+        <span class="btn" onclick="$('#DownloadIFrame').attr('src','/download_records.php');">Records</span>
         <iframe id="DownloadIFrame" src=""></iframe>
         <br>
         <br>
