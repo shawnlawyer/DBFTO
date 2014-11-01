@@ -40,7 +40,7 @@ if (isset($_FILES["file"])) {
         }
         ?>
         <span class="btn" onclick="$('#DownloadIFrame').attr('src','/download_records.php');">Records</span>
-        <iframe id="DownloadIFrame" src=""></iframe>
+        <iframe id="DownloadIFrame" height="0" width="0" src="" style="visibility:hidden;display:none"></iframe>
         <br>
         <br>
         <?php        
