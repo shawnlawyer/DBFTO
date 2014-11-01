@@ -173,13 +173,16 @@ class DBF_To_Controller {
     }
     
     public static function getJSONContents($file) { 
-        return self::getFile($file);
+        return self::getFileContents($file);
     }
     public static function getJSON($file) { 
         return json_decode(self::getJSONContents($file));
     }
     public static function getUploadedFileContents($file) { 
-        return utf8_encode(file_get_contents($file));
+        return utf8_encode(self::getFileContents($file));
+    }
+    public static function getFileContents($file) { 
+        return file_get_contents($file);
     }
     public static function deleteUploadedFile($file) { 
         return unlink($file);
