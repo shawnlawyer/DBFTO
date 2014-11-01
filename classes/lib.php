@@ -394,6 +394,7 @@ class Table {
         }
         $html .= '
 </table>';
+        return $html;
     }
 
     public static function makeTableRow($row) {
