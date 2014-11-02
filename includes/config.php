@@ -5,7 +5,7 @@ class DBF_To_Common {
     public static function uploads(){
         return self::$uploads;
     }
-    public static $meta_keywords = 'dBase, DBFtoHTML, DBFtoXLSX, DBFtoJSON, DBFtoXML, DBFtoCSV, DBFto, dBaseto, dBase to, Converter, Transform, 200MB, dBase DBFm, Free, Online, Visual FoxPro, Software, Tool';
+    public static $meta_keywords = 'dBase, dbfto, dbf, opendbf, dbf opener, dbf file, convert, DBFtoHTML, DBFtoXLSX, DBFtoJSON, DBFtoXML, DBFtoCSV, DBFto, dBaseto, dBase to, Converter, Transform, 200MB, dBase DBFm, Free, Online, Visual FoxPro, Software, Tool';
 	public static $meta_description = 'dBase DBF To - Free Online Tools for Converting dBase DBF data.  DBFtoJSON, DBFtoXML, DBFtoHTML, DBFtoXLSX, and DBFtoCSV. Upload up to 200MB dBase DBF file and convert to JSON Javascript Object Notation, XML Extensible Markup Language, and CSV Comma Separated Values for Free. Visual FoxPro end of life, transform your dbf dBase to JSON, XML, HTML, XLSX and CSV.';
 
 }
