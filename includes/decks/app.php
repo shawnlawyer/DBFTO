@@ -31,7 +31,7 @@ require_once('bootstrap.php');
         <div class="headline">3 Easy Steps</div>
         <br>
         <div class="card alignLeft">
-            <div class="subline">With DBFto online tools, you can convert any DBF to  <?=$site::$convert_to?> free in 3 easy steps.</div>
+            <div class="subline">With DBFto online tools, you can convert any DBF to  <?=$site::$convert_to?> free in 3 easy steps. </div>
             <div style="height:2px;"></div>
             <div class="subline">Step 1.</div>
             <div class="content">&nbsp;Choose a dBase DBF to convert. Up to 200mb for free.</div>
