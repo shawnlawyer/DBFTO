@@ -31,7 +31,7 @@ require_once('bootstrap.php');
         <div class="headline">3 Easy Steps</div>
         <br>
         <div class="card alignLeft">
-            <div class="subline">Convert all you DBF data to JSON, XML, and CSV free in 3 easy steps.</div>
+            <div class="subline">With DBFto online tools, you can convert any DBF to JSON, XML, XLSX, HTML, and CSV! Free in 3 easy steps.</div>
         </div>
         <br>
         <br>
@@ -41,7 +41,7 @@ require_once('bootstrap.php');
         <br>
         <form action="upload.php" method="post" enctype="multipart/form-data">
             <div class="card">
-                <div class="subline">Choose a dBase DBF file to convert. Up to 200mb for free.</div>
+                <div class="subline">Choose a dBase DBF to convert. Up to 200mb for free.</div>
             </div>
             <br> 
             <br> 
@@ -57,7 +57,7 @@ require_once('bootstrap.php');
         <div class="headline">Step 3</div>
         <br>
         <div class="card" id="status">
-            <div class="subline">Grab your converted dBase DBF data as JSON, XML, and CSV!</div>
+            <div class="subline">Grab your converted dBase DBF data as JSON, XML, XLSX, HTML, and CSV! Open DBF data files to all kinds of possibilities!</div>
         </div>
         <br>
         <br>

@@ -31,14 +31,14 @@ require_once('bootstrap.php');
         <div class="headline">3 Easy Steps</div>
         <br>
         <div class="card alignLeft">
-            <div class="subline">Convert all you DBF data to <?=$site::$convert_to?> free in 3 easy steps.</div>
+            <div class="subline">With DBFto online tools, you can convert any DBF to  <?=$site::$convert_to?> free in 3 easy steps.</div>
             <div style="height:2px;"></div>
             <div class="subline">Step 1.</div>
-            <div class="content">&nbsp;Choose your .dbf dbase database file to convert, up to 200mb.</div>
+            <div class="content">&nbsp;Choose a dBase DBF to convert. Up to 200mb for free.</div>
             <div class="subline">Step 2.</div>
-            <div class="content">&nbsp;Upload your file.</div>
+            <div class="content">&nbsp;Upload your dBase DBF file! We open dbf files and convert the data.</div>
             <div class="subline">Step 3.</div>
-            <div class="content">&nbsp;Download you data as <?=$site::$convert_to?>.</div>
+            <div class="content">&nbsp;Then you have 5 minute to download your transformed dbf data as <?=$site::$convert_to?>.</div>
         </div>
         <br>
         <br>
