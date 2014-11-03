@@ -14,11 +14,11 @@ class DBF_To {
 	public static $protocol = 'http://';
 	public static $domain = 'dbfto.com';
 	public static $card_deck = 'portal.php';
-	public static $site_title = 'DBFto - Free Online dBase DBF Converter Toolset dBase DBF to JSON, dBase DBF to XML, dBase DBF to CSV';
+	public static $site_title = 'DBFto - Free Online dBase DBF Converter Toolset  Convert dBase DBF to JSON, XML, CSV, XLSX, HTML';
     
 	public static $convert_to = '';
 	public static $meta_keywords = '';
-	public static $meta_description = 'dBase DBF to Free Online Converting Software. With DBFtoJSON, DBFtoXML, DBFtoJSON, DBFtoXML, and DBFtoCSV Upload up to 200MB. Open DBF file and convert to JSON Javascript Object Notation, XML Extensible Markup Language, and CSV Comma Separated Values for Free. Visual FoxPro end of life, transform your dbf dBase to JSON, XML, and CSV.';
+	public static $meta_description = 'dBase DBF To - Free Online Tools for Converting dBase DBF data.  DBFtoJSON, DBFtoXML, DBFtoHTML, DBFtoXLSX, and DBFtoCSV. Upload up to 200MB. Open DBF file and convert to JSON Javascript Object Notation, XML Extensible Markup Language, and CSV Comma Separated Values for Free. Visual FoxPro end of life, transform your dbf dBase to JSON, XML, HTML, XLSX and CSV.';
 
 	public static $meta_msvalidate = '5CA5002C9CBF16995A8D68E6C0B1D952';
 	public static $meta_google_site_verification = '9Ae0Zu7yTYTPd33Y9AzgAgovLdpUiZaBzCmK_vmNT28';
