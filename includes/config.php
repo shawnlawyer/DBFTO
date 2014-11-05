@@ -184,12 +184,12 @@ class DBF_To_HTML {
 
 class Timisim {
 	public static $protocol = 'http://';
-	public static $domain = 'timism.com';
-	public static $card_deck = 'app.php';   
+	public static $domain = 'timisim.com';
+	public static $card_deck = 'timisim.php';   
 	public static $site_title = 'Timism - Web Operations / Dev Ops Tools and Tips ';
     
 	public static $meta_keywords = 'Web, Operations, Dev, Ops, Tools, Tips, dBase, DBFtoXLSX, DBFtoJSON, DBFtoXML, DBFtoCSV, DBFto, dBaseto, dBase to, Converter, Transform, Tool';
-	public static $meta_description = 'Timism - Web Operations / Dev Ops Tools and Tips. Dbf to, Converting software and a few good laughs';
+	public static $meta_description = 'Timisim - Web Operations / Dev Ops Tools and Tips. Dbf to, Converting software and a few good laughs';
 
 	public static $meta_msvalidate = '';
 	public static $meta_google_site_verification = 'UudMaDS2nRVj5tP-jFxNTn96GPJQv3ibBNBZjF4XK6w';
