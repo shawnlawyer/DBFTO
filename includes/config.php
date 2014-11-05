@@ -36,6 +36,11 @@ class DBF_To {
 	public static $shareaholic_id = 'b4229ceca591af3c57964a203b24af6d';
     public static $shareaholic_related_content_block_1 = "<div class='shareaholic-canvas' data-app='recommendations' data-app-id='11635050'></div>";
     public static $shareaholic_follow_content_block_1 = "<div class='shareaholic-canvas' data-app='follow_buttons' data-app-id='11635065'></div>";
+	
+    public static $commission_junction_left_top = '<script type="text/javascript" language="javascript" src="http://www.dpbolvw.net/j1108j40qsux30tu6FHIKIOMON?target=_blank&mouseover=Y"></script>';
+    public static $commission_junction_right_top = '<script type="text/javascript" language="javascript" src="http://www.tkqlhce.com/51106bvrgiknurjkx578A8EBDA?target=_blank&mouseover=Y"></script>';
+    public static $commission_junction_upload_sponser = '<script type="text/javascript" language="javascript" src="http://www.tkqlhce.com/1681dyujlnqxumn-8ABDBHGBF?target=_blank&mouseover=Y"></script>';
+
 }
 
 
@@ -66,6 +71,9 @@ class DBF_To_JSON {
 	public static $shareaholic_id = 'c4926377dddc4a5a787ae73482ea4852';
     public static $shareaholic_related_content_block_1 = "<div class='shareaholic-canvas' data-app='recommendations' data-app-id='11594747'></div>";
     public static $shareaholic_follow_content_block_1 = "<div class='shareaholic-canvas' data-app='follow_buttons' data-app-id='11596294'></div>";
+    public static $comission_junction_left_top = '<script type="text/javascript" language="javascript" src="http://www.jdoqocy.com/si75pC8y-14B801ENPQSQWTVW?target=_blank&mouseover=Y"></script>';
+    public static $comission_junction_right_top = '<script type="text/javascript" language="javascript" src="http://www.anrdoezrs.net/r470kwshjlovskly689B9FD8C?target=_blank&mouseover=Y"></script>';
+    public static $commission_junction_upload_sponser = '<script type="text/javascript" language="javascript" src="http://www.tkqlhce.com/1681dyujlnqxumn-8ABDBHGBF?target=_blank&mouseover=Y"></script>';
 }
 
 class DBF_To_XML {
@@ -94,6 +102,10 @@ class DBF_To_XML {
     public static $shareaholic_id = '7722c1966768542f192391bc4ddeb143';
     public static $shareaholic_related_content_block_1 = "<div class='shareaholic-canvas' data-app='recommendations' data-app-id='11598875'></div>";
     public static $shareaholic_follow_content_block_1 = "<div class='shareaholic-canvas' data-app='follow_buttons' data-app-id='11598541'></div>";
+    
+    public static $commission_junction_left_top = '';
+    public static $commission_junction_right_top = '';
+    public static $commission_junction_upload_sponser = '';
    
 }
 
@@ -123,6 +135,9 @@ class DBF_To_CSV {
 	public static $shareaholic_id = '848d751030faa52b2db2d87650926266';
     public static $shareaholic_related_content_block_1 = "<div class='shareaholic-canvas' data-app='recommendations' data-app-id='11626149'></div>";
     public static $shareaholic_follow_content_block_1 = "<div class='shareaholic-canvas' data-app='follow_buttons' data-app-id='11626174'></div>";
+    public static $commission_junction_left_top = '';
+    public static $commission_junction_right_top = '';
+    public static $commission_junction_upload_sponser = '';
 }
 
 class DBF_To_XLSX {
@@ -151,6 +166,9 @@ class DBF_To_XLSX {
 	public static $shareaholic_id = '7e906fb15a025e51845201d0ea359595';
     public static $shareaholic_related_content_block_1 = "<div class='shareaholic-canvas' data-app='recommendations' data-app-id='11642612'></div>";
     public static $shareaholic_follow_content_block_1 = "<div class='shareaholic-canvas' data-app='follow_buttons' data-app-id='11642664'></div>";
+    public static $commission_junction_left_top = '';
+    public static $commission_junction_right_top = '';
+    public static $commission_junction_upload_sponser = '';
 }
 
 class DBF_To_HTML {
@@ -180,6 +198,9 @@ class DBF_To_HTML {
 	public static $shareaholic_id = '3a1b879acb1594371d25b3c3dbbb69c3';
     public static $shareaholic_related_content_block_1 = "<div class='shareaholic-canvas' data-app='recommendations' data-app-id='11642625'></div>";
     public static $shareaholic_follow_content_block_1 = "<div class='shareaholic-canvas' data-app='follow_buttons' data-app-id='11642626'></div>";
+    public static $commission_junction_left_top = '';
+    public static $commission_junction_right_top = '';
+    public static $commission_junction_upload_sponser = '';
 }
 
 class Timisim {
@@ -207,4 +228,7 @@ class Timisim {
 	public static $shareaholic_id = 'da9e48e990cd7519de42947d73a7ecc9';
     public static $shareaholic_related_content_block_1 = "<div class='shareaholic-canvas' data-app='recommendations' data-app-id='11642575'></div>";
     public static $shareaholic_follow_content_block_1 = "<div class='shareaholic-canvas' data-app='follow_buttons' data-app-id='11642651'></div>";
+    public static $commission_junction_left_top = '';
+    public static $commission_junction_right_top = '';
+    public static $commission_junction_upload_sponser = '';
 }

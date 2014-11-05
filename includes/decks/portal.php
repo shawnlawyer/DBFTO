@@ -38,21 +38,28 @@ require_once('bootstrap.php');
         <br>
         <br>
         <br>
+        <?php include('cards/left-top-ad.php');?>
+        <div class="card-shim"></div>
+        <?php include('cards/tools-bit.php');?>
+        <div class="card-shim"></div>
+        <?php include('cards/right-top-ad.php');?>
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="headline">Step 1</div>
         <br>
-        <form action="upload.php" method="post" enctype="multipart/form-data">
-            <div class="card">
-                <div class="subline">Choose a dBase DBF to convert. Up to 200mb for free.</div>
-            </div>
-            <br> 
-            <br> 
-            <br>
-            <div class="headline">Step 2</div>
-            <br>
-            <div class="card">
-                <div class="subline">Upload your dBase DBF file!</div>
-            </div>
-        </form>
+        <div class="card">
+            <div class="subline">Choose a dBase DBF to convert. Up to 200mb for free.</div>
+        </div>
+        <br> 
+        <br> 
+        <br>
+        <div class="headline">Step 2</div>
+        <br>
+        <div class="card">
+            <div class="subline">Upload your dBase DBF file!</div>
+        </div>
         <br>
         <br> 
         <div class="headline">Step 3</div>
@@ -64,7 +71,7 @@ require_once('bootstrap.php');
         <br>
         <br>
         <br>
-        <?php include('cards/tools-bit.php');?>
+        <?php include('cards/upload-sponsor-ad.php');?>
         <br>
         <br>
         <br>
