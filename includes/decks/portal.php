@@ -99,6 +99,12 @@ require_once('bootstrap.php');
         <br>
         <br>
         <br>
+        <?php include('cards/discus-comments.php');?>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <div id="footContainer" class="fitBlock alignCenter">
             <?php include('cards/legal-bit.php');?>
         </div>  

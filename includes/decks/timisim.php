@@ -54,6 +54,8 @@ require_once('bootstrap.php');
         <br>
         <br>
         <br>
+        <?php include('cards/discus-comments.php');?>
+        <br>
         <br>
         <br>
         <br>
