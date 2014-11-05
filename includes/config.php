@@ -182,14 +182,14 @@ class DBF_To_HTML {
     public static $shareaholic_follow_content_block_1 = "<div class='shareaholic-canvas' data-app='follow_buttons' data-app-id='11642626'></div>";
 }
 
-class Optimisim {
+class Timisim {
 	public static $protocol = 'http://';
-	public static $domain = 'op.timism.com';
+	public static $domain = 'timism.com';
 	public static $card_deck = 'app.php';   
-	public static $site_title = 'Op.timism - Web Operations / Dev Ops Tools and Tips ';
+	public static $site_title = 'Timism - Web Operations / Dev Ops Tools and Tips ';
     
 	public static $meta_keywords = 'Web, Operations, Dev, Ops, Tools, Tips, dBase, DBFtoXLSX, DBFtoJSON, DBFtoXML, DBFtoCSV, DBFto, dBaseto, dBase to, Converter, Transform, Tool';
-	public static $meta_description = 'Op.timism - Web Operations / Dev Ops Tools and Tips. Dbf to, Converting software and a few good laughs';
+	public static $meta_description = 'Timism - Web Operations / Dev Ops Tools and Tips. Dbf to, Converting software and a few good laughs';
 
 	public static $meta_msvalidate = '';
 	public static $meta_google_site_verification = 'UudMaDS2nRVj5tP-jFxNTn96GPJQv3ibBNBZjF4XK6w';
