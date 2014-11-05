@@ -39,10 +39,11 @@ require_once('bootstrap.php');
         <br>
         <br>
         <?php include('cards/left-top-ad.php');?>
-        <div class="card-shim"></div>
+        <div class="card-shim" style="display:inline-block;"></div>
         <?php include('cards/tools-bit.php');?>
-        <div class="card-shim"></div>
+        <div class="card-shim" style="display:inline-block;"></div>
         <?php include('cards/right-top-ad.php');?>
+        <br clear="all" />
         <br>
         <br>
         <br>

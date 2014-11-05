@@ -1,6 +1,7 @@
-<div class="headline">DBF To - Tools</div>
-<br>
-<div class="card">
+
+<div class="card" style="display:inline-block;">
+    <div class="headline">DBF To - Tools</div>
+    <br>
     <div class="subline"><a href="https://dbftojson.com" target="_blank" hreflang="en" alt="DBFtoJSON - Free Online dBase DBF to JSON JavaScript Object Notation Converter">DBFtoJSON - Online dBase DBF to JSON JavaScript Object Notation Converter at dbftojson.com</a></div>
     <div class="subline"><a href="http://dbftoxml.com" target="_blank" hreflang="en" alt="DBFtoXML - Free Online dBase DBF to XML Extensible Markup Language Converter">DBFtoXML - Online dBase DBF to XML Extensible Markup Language Converter at dbftoxml.com</a></div>
     <div class="subline"><a href="http://dbftocsv.com" target="_blank" hreflang="en" alt="DBFtoCSV - Free Online dBase DBF to CSV Comma Separated Values Converter at dbftocsv.com">DBFtoCSV - Online dBase DBF to CSV Comma Separated Values Converter at dbftocsv.com</a></div>

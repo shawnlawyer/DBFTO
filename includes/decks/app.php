@@ -32,8 +32,8 @@ require_once('bootstrap.php');
         <div class="headline">3 Easy Steps</div>
         <br>
         <?php include('cards/left-top-ad.php');?>
-        <div class="card-shim"></div>
-        <div class="card alignLeft">
+        <div class="card-shim" style="display:inline-block;"></div>
+        <div class="card alignLeft" style="display:inline-block;">
             <div class="subline">With DBFto online tools, you can convert any DBF to  <?=$site::$convert_to?> free in 3 easy steps. </div>
             <div style="height:2px;"></div>
             <div class="subline">Step 1.</div>
@@ -43,9 +43,9 @@ require_once('bootstrap.php');
             <div class="subline">Step 3.</div>
             <div class="content">&nbsp;Then you have 5 minute to download your transformed dbf data as <?=$site::$convert_to?>.</div>
         </div>
-        <div class="card-shim"></div>
+        <div class="card-shim" style="display:inline-block;"></div>
         <?php include('cards/right-top-ad.php');?>
-        <br>
+        <br clear="all" />
         <br>
         <br>
         <br>
