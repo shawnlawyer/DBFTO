@@ -29,9 +29,9 @@ require_once('bootstrap.php');
         <br>
         <br>
         <br>
-        <div class="headline">3 Easy Steps</div>
-        <br>
         <div class="card alignLeft">
+            <div class="headline">3 Easy Steps</div>
+            <br>
             <div class="subline">With DBFto online tools, you can convert any DBF to JSON, XML, XLSX, HTML, and CSV! Free in 3 easy steps.</div>
         </div>
         <br>
