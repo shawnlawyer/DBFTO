@@ -181,3 +181,30 @@ class DBF_To_HTML {
     public static $shareaholic_related_content_block_1 = "<div class='shareaholic-canvas' data-app='recommendations' data-app-id='11642625'></div>";
     public static $shareaholic_follow_content_block_1 = "<div class='shareaholic-canvas' data-app='follow_buttons' data-app-id='11642626'></div>";
 }
+
+class Optimisim {
+	public static $protocol = 'http://';
+	public static $domain = 'op.timism.com';
+	public static $card_deck = 'app.php';   
+	public static $site_title = 'Op.timism - Web Operations / Dev Ops Tools and Tips ';
+    
+	public static $meta_keywords = 'Web, Operations, Dev, Ops, Tools, Tips, dBase, DBFtoXLSX, DBFtoJSON, DBFtoXML, DBFtoCSV, DBFto, dBaseto, dBase to, Converter, Transform, Tool';
+	public static $meta_description = 'Op.timism - Web Operations / Dev Ops Tools and Tips. Dbf to, Converting software and a few good laughs';
+
+	public static $meta_msvalidate = '';
+	public static $meta_google_site_verification = 'UudMaDS2nRVj5tP-jFxNTn96GPJQv3ibBNBZjF4XK6w';
+    
+	public static $google_analytics_id = 'UA-56187025-7';
+
+    public static $google_ad_block_1 = ' 
+<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-6846888363220940" data-ad-slot="6643015313"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+';
+    public static $google_ad_block_2 = ' 
+<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-6846888363220940" data-ad-slot="3968750518"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+';
+	public static $shareaholic_id = 'da9e48e990cd7519de42947d73a7ecc9';
+    public static $shareaholic_related_content_block_1 = "<div class='shareaholic-canvas' data-app='recommendations' data-app-id='11642575'></div>";
+    public static $shareaholic_follow_content_block_1 = "<div class='shareaholic-canvas' data-app='follow_buttons' data-app-id='11642651'></div>";
+}

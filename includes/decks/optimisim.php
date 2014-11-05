@@ -8,7 +8,7 @@ require_once('bootstrap.php');
     </head>
     <body class="alignCenter">
         <div id="headContainer" class="fitBlock">
-            <div class="site-header">DBF to</div>
+            <div class="site-header">Op.timisim</div>
         </div>  
         <br>
         <br>  
@@ -32,33 +32,7 @@ require_once('bootstrap.php');
         <div class="headline">3 Easy Steps</div>
         <br>
         <div class="card alignLeft">
-            <div class="subline">With DBFto online tools, you can convert any DBF to JSON, XML, XLSX, HTML, and CSV! Free in 3 easy steps.</div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="headline">Step 1</div>
-        <br>
-        <form action="upload.php" method="post" enctype="multipart/form-data">
-            <div class="card">
-                <div class="subline">Choose a dBase DBF to convert. Up to 200mb for free.</div>
-            </div>
-            <br> 
-            <br> 
-            <br>
-            <div class="headline">Step 2</div>
-            <br>
-            <div class="card">
-                <div class="subline">Upload your dBase DBF file!</div>
-            </div>
-        </form>
-        <br>
-        <br> 
-        <div class="headline">Step 3</div>
-        <br>
-        <div class="card" id="status">
-            <div class="subline">Grab your converted dBase DBF data as JSON, XML, XLSX, HTML, and CSV! Open DBF data files to all kinds of possibilities!</div>
+            <div class="subline">With DBFto online tools, you can convert any DBF to JSON, XML, XLSX, HTML, and CSV! Free up to 200mb in 3 easy steps.</div>
         </div>
         <br>
         <br>
@@ -80,20 +54,15 @@ require_once('bootstrap.php');
         <br>
         <br>
         <br>
-        <?php include('cards/vpf-bit.php');?>
-        <br>
-        <br>
-        <br>
-        <br>
-        <?php include('cards/dbf-bit.php');?>
         <br>
         <br>
         <br>
         <br>
         <br>
-        <div id="footContainer" class="fitBlock alignCenter">
-            <?php include('cards/legal-bit.php');?>
-        </div>  
+        <br>
+        <br>
+        <br>
+        <br>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
         <?php include('js/shareaholic.php');?>
         <?php include('js/google_analytics.php');?>
