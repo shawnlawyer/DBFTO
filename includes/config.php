@@ -105,8 +105,8 @@ class DBF_To_CSV {
     
 	public static $convert_to = 'CSV';
 	public static $convert_to_longname = 'Comma Separated Values';
-	public static $meta_keywords = 'XML, Comma Separated Values';
-	public static $meta_description = 'dBase DBF to XML Free Online Converter Software. Upload up to 200MB. Open DBF file and convert to CSV Comma Separated Values Free. Visual FoxPro end of life, transform your dbf dBase to CSV.';
+	public static $meta_keywords = 'CSV, Comma Separated Values';
+	public static $meta_description = 'dBase DBF to CSV Free Online Converter Software. Upload up to 200MB. Open DBF file and convert to CSV Comma Separated Values Free. Visual FoxPro end of life, transform your dbf dBase to CSV.';
 
 	public static $meta_msvalidate = '';
 	public static $meta_google_site_verification = '2ygdagLeb0h8tH_d5SfdN59Vvn1FKkq8VbEgjwSvVps';
