@@ -68,6 +68,7 @@ require_once('bootstrap.php');
         <br>
         <br>
         <br>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <?=$site::$google_ad_block_2?>
         <br>
         <br>
