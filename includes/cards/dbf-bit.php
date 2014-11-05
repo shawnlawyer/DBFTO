@@ -1,6 +1,7 @@
-<div class="headline">A Bit on .DBF dBase Database Files</div>
-<br>
+
 <div class="card">
+    <div class="headline">A Bit on .DBF dBase Database Files</div>
+    <br>
     <div class="content alignLeft" style="max-width:40em;">
         A .DBF is a dBASE file used by databases. DBF means DataBase File and were originally used in dBase II to dBase Version IV.<br>
         <br>

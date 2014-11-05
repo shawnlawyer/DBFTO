@@ -1,6 +1,6 @@
-<div class="headline">A Bit on JSON</div>
-<br>
 <div class="card">
+    <div class="headline">A Bit on JSON</div>
+    <br>
     <div class="content alignLeft" style="max-width:40em;">
         JSON or JavaScript Object Notation is open-source portable data format.<br>
         <br>

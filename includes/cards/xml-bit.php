@@ -1,6 +1,6 @@
-<div class="headline">A Bit on XML</div>
-<br>
 <div class="card">
+    <div class="headline">A Bit on XML</div>
+    <br>
     <div class="content alignLeft" style="max-width:40em;">
         XML or Extensible Markup Language is open-source portable data format.<br>
         <br>

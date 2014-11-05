@@ -1,6 +1,7 @@
-<div class="headline">Ubuntu Bash Build Script Example</div>
-<br>
+
 <div class="card">
+    <div class="headline">Ubuntu Bash Build Script Example</div>
+    <br>
     <div class="subline">Headless Ubuntu Machine Bash Build Script Example</div>
     <pre class="code">
 sudo apt-get update

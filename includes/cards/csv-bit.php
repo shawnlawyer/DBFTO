@@ -1,6 +1,7 @@
-<div class="headline">A Bit on CSV</div>
-<br>
+
 <div class="card">
+    <div class="headline">A Bit on CSV</div>
+    <br>
     <div class="content alignLeft" style="max-width:40em;">
         CSV or Comma-separated values is open-source portable data format.<br>
         <br>

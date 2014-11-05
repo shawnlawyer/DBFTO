@@ -1,6 +1,7 @@
-<div class="headline">A Bit on XLSX</div>
-<br>
+
 <div class="card">
+    <div class="headline">A Bit on XLSX</div>
+    <br>
     <div class="content alignLeft" style="max-width:40em;">
         XLSX or Microsoft Office Excel and OpenOffice Spreadsheet is open-source portable data format.<br>
         <br>
