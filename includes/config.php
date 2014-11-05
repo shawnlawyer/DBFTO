@@ -71,8 +71,8 @@ class DBF_To_JSON {
 	public static $shareaholic_id = 'c4926377dddc4a5a787ae73482ea4852';
     public static $shareaholic_related_content_block_1 = "<div class='shareaholic-canvas' data-app='recommendations' data-app-id='11594747'></div>";
     public static $shareaholic_follow_content_block_1 = "<div class='shareaholic-canvas' data-app='follow_buttons' data-app-id='11596294'></div>";
-    public static $comission_junction_left_top = '<script type="text/javascript" language="javascript" src="http://www.jdoqocy.com/si75pC8y-14B801ENPQSQWTVW?target=_blank&mouseover=Y"></script>';
-    public static $comission_junction_right_top = '<script type="text/javascript" language="javascript" src="http://www.anrdoezrs.net/r470kwshjlovskly689B9FD8C?target=_blank&mouseover=Y"></script>';
+    public static $commission_junction_left_top = '<script type="text/javascript" language="javascript" src="http://www.jdoqocy.com/si75pC8y-14B801ENPQSQWTVW?target=_blank&mouseover=Y"></script>';
+    public static $commission_junction_right_top = '<script type="text/javascript" language="javascript" src="http://www.anrdoezrs.net/r470kwshjlovskly689B9FD8C?target=_blank&mouseover=Y"></script>';
     public static $commission_junction_upload_sponser = '<script type="text/javascript" language="javascript" src="http://www.tkqlhce.com/1681dyujlnqxumn-8ABDBHGBF?target=_blank&mouseover=Y"></script>';
 }
 
