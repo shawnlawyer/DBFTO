@@ -8,7 +8,7 @@ require_once('bootstrap.php');
     </head>
     <body class="alignCenter">
         <div id="headContainer" class="fitBlock">
-            <div class="site-header">Op.timisim</div>
+            <div class="site-header">Timisim</div>
         </div>  
         <br>
         <br>  

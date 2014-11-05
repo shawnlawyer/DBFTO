@@ -20,9 +20,8 @@ switch($_SERVER['HTTP_HOST']){
     case 'dbf2html.com':
         $site = 'DBF_To_HTML';
         break;
-    case 'op.timism.com':
-    case 'timism.com':
-        $site = 'Optimisim';
+    case 'timisim.com':
+        $site = 'Timisim';
         break;
     case 'dbfto.com':
     case 'dbf2.com':
