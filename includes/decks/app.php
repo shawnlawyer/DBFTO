@@ -32,7 +32,7 @@ require_once('bootstrap.php');
         <?php include('cards/left-top-ad.php');?>
         <div class="card-shim" style="display:inline-block;"></div>
         <div class="card alignLeft" style="display:inline-block;">
-            <div class="headline">3 Easy Steps</div>
+            <div class="headline alignCenter">3 Easy Steps</div>
             <br>
             <div class="subline">With DBFto online tools, you can convert any DBF to  <?=$site::$convert_to?> free in 3 easy steps. </div>
             <div style="height:2px;"></div>
