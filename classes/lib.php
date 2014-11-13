@@ -120,15 +120,15 @@ class DBF_To_Controller {
             
             $buf = fread($fdbf,$header['RecordLength']); 
             $record=unpack($unpackString,$buf);
-            $print_record = array();
+            print_record = array();
             foreach($record as $key => $value){
-                $print_record[$key] = trim($value);
+                print_record[$key] = trim($value);
             }
-            $print_records[] = json_decode(str_replace('\\u0000', "", json_encode($print_record)));
+            print_records[] = json_decode(str_replace('\\u0000', "", json_encode(print_record)));
             $seperator = ",\n";
         }
         fclose($fdbf);
-        return $print_records;
+        return print_records;
     }
 
     public static function getFields($dbfname) { 
